@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".views.MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_lift"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:isScrollContainer="false"
+        android:nestedScrollingEnabled="false"
+        android:layout_marginBottom="@dimen/height_size"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_size"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/margin_three"
+        android:orientation="horizontal"
+        tools:context=".views.MainActivity">
+
+        <View
+            android:layout_width="@dimen/zero_size"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:visibility="invisible"/>
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="@dimen/zero_size"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:text="@string/lbl_start"
+            android:textAllCaps="false"
+            android:layout_margin="@dimen/margin_three"
+            android:textSize="@dimen/button_text_size" />
+
+    </LinearLayout>
+
+</RelativeLayout>

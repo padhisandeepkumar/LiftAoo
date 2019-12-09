@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="button_text_size">16sp</dimen>
+    <dimen name="execution_text_size">22sp</dimen>
+
+    <dimen name="height_size">70dp</dimen>
+    <dimen name="zero_size">0dp</dimen>
+    <dimen name="margin_five">5dp</dimen>
+    <dimen name="margin_three">3dp</dimen>
+</resources>

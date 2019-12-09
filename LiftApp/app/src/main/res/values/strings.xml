@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LiftApp</string>
+
+    <string name="lbl_up">&#x2191;\nLift Up\n%s</string>
+    <string name="lbl_down">&#x2193;\nLift Down\n%s</string>
+
+    <string name="lbl_start">Start Run</string>
+
+    <string name="lbl_execution">Order Of Execution is\n%s</string>
+
+    <string name="MACRO_MESSAGE">Execution_Message</string>
+
+</resources>
